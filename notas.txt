@@ -1,8 +1,0 @@
-para crear el enotorno virtual 
-
-python -m venv tf-env
-
-
-para activarlo:
-
-.\tf-env\Scripts\Activate.ps1
