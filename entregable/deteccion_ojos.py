@@ -1,11 +1,11 @@
 import cv2
 from datetime import datetime
 
-# Cargar clasificadores Haar
+# Cargamos  Haar
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
-# Iniciar webcam
+# Iniciar camra
 cap = cv2.VideoCapture(0)
 
 while True:
